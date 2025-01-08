@@ -23,6 +23,38 @@
     border: none;
     border-radius: 5px;
 }
+/* header */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* banners style */
+.banner-greetings{
+    font-size:45px ;
+    font-weight: 600;
+}
+.banner{
+ display: flex;
+ justify-content: space-between;
+ margin: 0 35px 0 230px;
+}
+.bannrer-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.description{
+    font-weight: 400;
+    font-size: 18px;
+}
+.profile-pic{
+    width: 584px;
+    
+}
+.banner-content{
+    max-width:585px ;
+
+}
 /* nav styles */
 nav{
     display: flex;
@@ -31,7 +63,6 @@ nav{
     margin: 0px 200px;
   
 }
-
 .nav-title{
     font-weight: 800;
     font-size: 45px;
